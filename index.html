@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/images/" type="image/x-icon">
+        <link rel="shortcut icon" href="assets/images/zoro.png" type="image/x-icon">
 
         <!--=============== REMIX ICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -23,7 +23,7 @@
                 <div class="profile_data">
                     <div class="profile_border">
                         <div class="profile_perfil">
-                            <img src="assets/images/" alt="">
+                            <img src="assets/images/no-image.png" alt="">
                         </div>
                     </div>
                     <h2 class="profile_name">Carly Tesnor</h2>
@@ -37,7 +37,7 @@
             </div>
             <div class="profile_info grid">
                 <div class="profile_info-group">
-                    <h3 class="profile_info-number"></h3>
+                    <h3 class="profile_info-number">0</h3>
                     <p class="profile_info-description">Years of <br> Work</p>
                 </div>
                 <div class="profile_info-group">
@@ -53,8 +53,8 @@
                 <a download="" href="assets/pdf/" class="button"> Resume <i class="ri-download-line"></i></a>
 
                 <div class="profiles_buttons_small">
-                    <a href="" target="_blank" class="button button_small"><i class="ri-whatsapp-line"></i></a>
-                    <a href="" target="_blank" class="button button_small"><i class="ri-messenger-line"></i></a>
+                    <a href="" target="_blank" class="button button_small button_gray"><i class="ri-whatsapp-line"></i></a>
+                    <a href="" target="_blank" class="button button_small button_gray"><i class="ri-messenger-line"></i></a>
                 </div>
             </div>
         </header>
@@ -63,13 +63,164 @@
         <main class="main">
             <section class="filters container">
                 <!--=============== FILTERS TABS ===============-->
+                <ul>
+                    <button class="filters_button" data-target="#projects">Projects</button>
+                    <button class="filters_button" data-target="#skills">Skills</button>
+                </ul>
 
                 <div class="filters__sections">
                     <!--=============== PROJECTS ===============-->
+                    <div class="projects_content grid filters_active" data-content id="projects">
+                        <article class="projects_card">
+                            <img src="assets/images/zoro.png" alt="" class="projects_img">
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle">Web</span>
+                                    <h3 class="projects_title">Payment site</h3>
+                                    <a href="#" class="projects_button button button-small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
 
+                        <article class="projects_card">
+                            <img src="assets/images/no-image.png" alt="" class="projects_img">
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle"></span>
+                                    <h3 class="projects_title"></h3>
+                                    <a href="#" class="projects_button button button-small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects_card">
+                            <img src="assets/images/zoro.png" alt="" class="projects_img">
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle"></span>
+                                    <h3 class="projects_title"></h3>
+                                    <a href="#" class="projects_button button button-small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects_card">
+                            <img src="assets/images/no-image.png" alt="" class="projects_img">
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle"></span>
+                                    <h3 class="projects_title"></h3>
+                                    <a href="#" class="projects_button button button-small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
 
                     <!--=============== SKILLS ===============-->
+                    <div class="projects_content grid" data-content id="skills">
+                        <div class="skills_area">
+                            <h3 class="skills_title">Frontend Developer</h3>
+                            <div class="skills_box">
+                                <div class="skills_group">
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">Javascript</h3>
+                                            <span class="skills_level">Expert</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">HTML</h3>
+                                            <span class="skills_level">Expert</span>
+                                        </div>
+                                    </div>
 
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">CSS</h3>
+                                            <span class="skills_level">Expert</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">CSS</h3>
+                                            <span class="skills_level">Expert</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">CSS</h3>
+                                            <span class="skills_level">Expert</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills_area">
+                            <h3 class="skills_title">Backend Developer</h3>
+                            <div class="skills_box">
+                                <div class="skills_group">
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">Javascript</h3>
+                                            <span class="skills_level">Expert</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">HTML</h3>
+                                            <span class="skills_level">Expert</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">CSS</h3>
+                                            <span class="skills_level">Expert</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills_area">
+                            <h3 class="skills_title">Mobile Developer</h3>
+                            <div class="skills_box">
+                                <div class="skills_group">
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">Javascript</h3>
+                                            <span class="skills_level">Expert</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">HTML</h3>
+                                            <span class="skills_level">Expert</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
