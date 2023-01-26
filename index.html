@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/images/zoro.png" type="image/x-icon">
+        <link rel="shortcut icon" href="assets/images/welcome.png" type="image/x-icon">
 
         <!--=============== REMIX ICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -18,130 +18,107 @@
     </head>
     <body>
         <!--=============== HEADER PROFILE ===============-->
+    <div class="gwodiv">
         <header class="profile container">
             <div class="profile_container grid">
                 <div class="profile_data">
-                    <div class="profile_border">
+                    <!-- <div class="profile_border">
                         <div class="profile_perfil">
                             <img src="assets/images/no-image.png" alt="">
                         </div>
-                    </div>
+                    </div> -->
                     <h2 class="profile_name">Carly Tesnor</h2>
                     <h3 class="profile_profession">Software Engineer</h3>
                     <ul class="profile_social">
                         <a href="" target="_blank" class="profile_social-link"><i class="ri-instagram-line"></i></a>
-                        <a href="" target="_blank" class="profile_social-link"><i class="ri-linkedin-box-line"></i></a>
-                        <a href="" target="_blank" class="profile_social-link"><i class="ri-github-line"></i></a>
+                        <a href="https://www.linkedin.com/in/carly-tesnor-633736160/" target="_blank" class="profile_social-link"><i class="ri-linkedin-box-line"></i></a>
+                        <a href="https://github.com/Carly509" target="_blank" class="profile_social-link"><i class="ri-github-line"></i></a>
                     </ul>
                 </div>
             </div>
             <div class="profile_info grid">
                 <div class="profile_info-group">
-                    <h3 class="profile_info-number">0</h3>
-                    <p class="profile_info-description">Years of <br> Work</p>
-                </div>
-                <div class="profile_info-group">
-                    <h3 class="profile_info-number">100+</h3>
-                    <p class="profile_info-description">Projects<br> worked on</p>
-                </div>
-                <div class="profile_info-group">
-                    <h3 class="profile_info-number">50</h3>
-                    <p class="profile_info-description">Satisfied <br> Customers</p>
+                    <p class="profile_info-description">As a software engineer I'm driven by the idea that technology should be used to enhance people's lives. My objective is to design an efficient and seamless interface between people and other systems, in order to maximize productivity. Furthermore, I strive to learn as much as possible, and enjoy participating in stimulating conversations, imparting my knowledge.</p>
                 </div>
             </div>
             <div class="profile_buttons">
-                <a download="" href="assets/pdf/" class="button"> Resume <i class="ri-download-line"></i></a>
-
-                <div class="profile_buttons_small">
-                    <a href="" target="_blank" class="button button_small button_gray"><i class="ri-whatsapp-line"></i></a>
-                    <a href="" target="_blank" class="button button_small button_gray"><i class="ri-messenger-line"></i></a>
-                </div>
+                <a download="" href="assets/pdf/tesnor.pdf" class="button"> Resume <i class="ri-download-line"></i></a>
             </div>
         </header>
 
         <!--=============== MAIN ===============-->
         <main class="main">
-            <section class="filters container">
+            <section class="filters containerr">
                 <!--=============== FILTERS TABS ===============-->
                 <ul class="filters_content">
-                    <button class="filters_button" data-target="#projects">Projects</button>
-                    <button class="filters_button" data-target="#skills">Skills</button>
+                    <button class="filters_button filter-tab-active" data-target="#projects">Skills</button>
+                    <button class="filters_button" data-target="#skills">Projects</button>
                 </ul>
 
                 <div class="filters__sections">
                     <!--=============== PROJECTS ===============-->
-                    <div class="projects_content grid filters_active" data-content id="projects">
+                    <div class="projects_content grid active" data-content id="projects">
+                        <p class="profile_info-description" style="width: auto;">This list is not exhaustive, if need more contact me.</p>
                         <article class="projects_card">
-                            <img src="assets/images/zoro.png" alt="" class="projects_img">
-                            <div class="projects_modal">
                                 <div>
                                     <span class="projects_subtitle">Web</span>
-                                    <h3 class="projects_title">Payment site</h3>
-                                    <a href="#" class="projects_button button button_small">
-                                        <i class="ri-link"></i>
-                                    </a>
+                                    <h3 class="projects_title">Portofolio</h3>
+                                    <p> Wanted to get back to the basics, so I built it with HTML,CSS,Javascript.
+                                    <a href="http://tesnorcarly.info/" class="projects_button">My Portofolio</a>
+                                    </p>
                                 </div>
+                        </article>
+
+                        <article class="projects_card">
+                            <div>
+                                <span class="projects_subtitle">Mobile App</span>
+                                <h3 class="projects_title">Pharmaceutical Products</h3>
+                                <p> Built Reperem, an application developed using React Native and Firebase that connects buyers and pharmacies of pharmaceutical products.
+                                <a href="https://play.google.com/store/apps/details?id=com.reperem.app&hl=en_US&gl=US" class="projects_button">The app is available on both the App Store and Google Play Store.</a>
+                                </p>
+                            </div>
+                        </article>
+
+
+                        <article class="projects_card">
+                            <div>
+                                <span class="projects_subtitle">Full Stack</span>
+                                <h3 class="projects_title">Nearshore software development agency</h3>
+                                <p> working with various companies in the U.S. on different projects
+                                <a href="https://noukod.com/" class="projects_button">through NouKòd.</a> and
+                                <a href="https://www.bairesdev.com/" class="projects_button">Bairesdev</a>
+                                </p>
                             </div>
                         </article>
 
                         <article class="projects_card">
-                            <img src="assets/images/no-image.png" alt="" class="projects_img">
-                            <div class="projects_modal">
-                                <div>
-                                    <span class="projects_subtitle"></span>
-                                    <h3 class="projects_title"></h3>
-                                    <a href="#" class="projects_button button button-small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
+                            <div>
+                                <span class="projects_subtitle">Web</span>
+                                <h3 class="projects_title">News</h3>
+                                <p> Built with Wordpress
+                                <a href="https://tedactu.com/" class="projects_button">Ted'actu</a>
+                                </p>
                             </div>
-                        </article>
-
-                        <article class="projects_card">
-                            <img src="assets/images/zoro.png" alt="" class="projects_img">
-                            <div class="projects_modal">
-                                <div>
-                                    <span class="projects_subtitle"></span>
-                                    <h3 class="projects_title"></h3>
-                                    <a href="#" class="projects_button button button-small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="projects_card">
-                            <img src="assets/images/no-image.png" alt="" class="projects_img">
-                            <div class="projects_modal">
-                                <div>
-                                    <span class="projects_subtitle"></span>
-                                    <h3 class="projects_title"></h3>
-                                    <a href="#" class="projects_button button button-small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
+                    </article>
                     </div>
 
                     <!--=============== SKILLS ===============-->
                     <div class="skills_content grid" data-content id="skills">
                         <div class="skills_area">
                             <h3 class="skills_title">Frontend Developer</h3>
+                            <p class="profile_info-description" style="width: auto;">This list is not exhaustive, I tried to add the technologies that I use the most for work</p>
                             <div class="skills_box">
                                 <div class="skills_group">
                                     <div class="skills_data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
                                             <h3 class="skills_name">Javascript</h3>
-                                            <span class="skills_level">Expert</span>
                                         </div>
                                     </div>
                                     <div class="skills_data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
                                             <h3 class="skills_name">HTML</h3>
-                                            <span class="skills_level">Expert</span>
                                         </div>
                                     </div>
 
@@ -149,7 +126,18 @@
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
                                             <h3 class="skills_name">CSS</h3>
-                                            <span class="skills_level">Expert</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">Ruby</h3>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">React</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -157,23 +145,52 @@
                                     <div class="skills_data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
-                                            <h3 class="skills_name">Javascript</h3>
-                                            <span class="skills_level">Expert</span>
+                                            <h3 class="skills_name">JQuery</h3>
                                         </div>
                                     </div>
                                     <div class="skills_data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
-                                            <h3 class="skills_name">HTML</h3>
-                                            <span class="skills_level">Expert</span>
+                                            <h3 class="skills_name">BootStrap</h3>
                                         </div>
                                     </div>
 
                                     <div class="skills_data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
-                                            <h3 class="skills_name">CSS</h3>
-                                            <span class="skills_level">Expert</span>
+                                            <h3 class="skills_name">Material-UI</h3>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">Typescript</h3>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">React Native</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills_group">
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">Material-UI</h3>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">Next.JS</h3>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">React Native</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -187,44 +204,63 @@
                                     <div class="skills_data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
-                                            <h3 class="skills_name">Javascript</h3>
-                                            <span class="skills_level">Expert</span>
+                                            <h3 class="skills_name">Firebase</h3>
                                         </div>
                                     </div>
                                     <div class="skills_data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
-                                            <h3 class="skills_name">HTML</h3>
-                                            <span class="skills_level">Expert</span>
+                                            <h3 class="skills_name">Node.JS</h3>
                                         </div>
                                     </div>
                                     <div class="skills_data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
-                                            <h3 class="skills_name">CSS</h3>
-                                            <span class="skills_level">Expert</span>
+                                            <h3 class="skills_name">GraphQl</h3>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">Ruby on Rails</h3>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">Ruby</h3>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="skills_area">
-                            <h3 class="skills_title">Mobile Developer</h3>
-                            <div class="skills_box">
                                 <div class="skills_group">
                                     <div class="skills_data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
-                                            <h3 class="skills_name">Javascript</h3>
-                                            <span class="skills_level">Expert</span>
+                                            <h3 class="skills_name">PostGreSQL</h3>
                                         </div>
                                     </div>
                                     <div class="skills_data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
-                                            <h3 class="skills_name">HTML</h3>
-                                            <span class="skills_level">Expert</span>
+                                            <h3 class="skills_name">MySQL</h3>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">Express</h3>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">C</h3>
+                                        </div>
+                                    </div>
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills_name">PHP</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -237,7 +273,7 @@
 
         <!--=============== FOOTER ===============-->
         <footer class="footer container">
-
+            <span class="footer_copy">&#169; All rights reserved</span>
         </footer>
 
         <!--=============== SCROLLREVEAL ===============-->
@@ -245,5 +281,6 @@
 
         <!--=============== APP JS ===============-->
         <script src="assets/javascript/app.js"></script>
+    </div>
     </body>
 </html>
