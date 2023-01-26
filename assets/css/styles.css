@@ -21,7 +21,7 @@
   --text-color: #9eafbf;
   --text-color-light: hsl(var(--hue), 8%, 75%);
   --text-color-lighten: hsl(var(--hue), 8%, 92%);
-  --body-color: #65193c;
+  --body-color: #44504f;
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
@@ -80,7 +80,6 @@ img {
 
 .gwodiv {
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
 }
@@ -254,7 +253,6 @@ img {
     display: flex;
     justify-content: space-between;
     column-gap: .5rem;
-    /* width: 90%; */
 }
 
 .filters_button {
@@ -285,7 +283,6 @@ img {
 .projects_card {
     position: relative;
     border-radius: 1rem;
-    /* overflow: hidden; */
 }
 
 .projects_card img {
@@ -395,7 +392,7 @@ color: var(--text-color);
 .footer_copy {
     display: block;
     margin-left: -2rem !important;
-    margin-top: 1rem;
+    margin-top: 4rem;
     text-align: center;
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
@@ -454,45 +451,29 @@ color: var(--text-color);
 body {
     width: fit-content;
   }
-    /* .containerr {
-        margin-left: 5rem;
-    } */
     .filters_content {
         width: 470px;
     }
-    /* .filters__sections {
-        margin-left: 5rem;
-    } */
     .footer_copy {
         margin-left: -3rem !important;
     }
 
     }
 
-/* @media screen and (max-width: 400px) {
-        .filters_content {
-            width: 380px;
-            margin-left: 4.5rem;
-        }
- } */
 @media screen and (max-width: 376px) {
-            /* .container {
-                margin-left: 18rem;
-            } */
-            /* .filters_content {
-                width: 470px;
-            } */
-            /* .profile_container {
-                margin-left: -3rem;
-            } */
-            /* .filters__sections {
-                margin-left: 8rem;
-            } */
             .footer_copy {
                 margin-left: -2rem !important;
             }
 }
 
 @media screen and (max-width: 321px) {
+    .footer_copy {
+        margin-top: 18rem;
+    }
+}
 
+@media screen and (min-width: 2000px) {
+    .footer_copy {
+        margin-top: 50rem;
+    }
 }
